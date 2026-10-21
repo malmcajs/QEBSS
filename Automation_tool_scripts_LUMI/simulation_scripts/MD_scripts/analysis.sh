@@ -3,7 +3,7 @@
 #SBATCH --partition=medium
 #SBATCH --ntasks=1
 #SBATCH --mem-per-cpu=1000
-#SBATCH --array=0-num_jobs
+#SBATCH --array=0-24
 #SBATCH --account=project
 
 
