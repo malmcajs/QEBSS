@@ -50,15 +50,9 @@ Set up the environment:
 `mkdir env`
 `conda-containerize new --prefix env env.yml`
 
-
-You need to manually add your project number to the scripts in LUMI, in MAHTI you can select the project number when running the scripts. Go to simulation_scripts/MD_scripts:
-
-Change line #SBATCH --account=project in files md_prep.sh, md.sh and analysis.sh
-
-
 Go to simulation_scripts/run_dir and run scripts in order:
 
-`sh run_prep.sh` 
+`bash HELPER_SCRIPT_PREP.sh` 
 
 `sh run_batch_md.sh` 
 
